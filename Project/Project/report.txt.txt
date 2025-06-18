@@ -1,0 +1,38 @@
+Inventory Forecasting & Recommendation System — Report
+
+Problem Statement:
+Hotel chain faces stockouts and overstocking, affecting guest satisfaction and increasing costs.
+
+Approach:
+
+Cleaned and aggregated historical consumption data.
+
+Forecasted 7-day consumption using 30-day moving average.
+
+Applied safety stock using 1.5x demand standard deviation.
+
+Simulated 30 days of demand to validate par levels.
+
+Insights:
+
+High demand items with high variability require larger par levels.
+
+Stockouts still occur for highly volatile items even with safety stock.
+
+This system provides starting recommendations for inventory managers.
+
+Assumptions:
+
+Daily demand follows a normal distribution.
+
+Safety stock factor set at 1.5.
+
+No external seasonality or event impact considered.
+
+Next Steps:
+
+Incorporate seasonality, events, promotions into demand modeling.
+
+Use advanced forecasting methods like ARIMA, Prophet or ML models.
+
+Adjust safety stock dynamically based on service level goals.
